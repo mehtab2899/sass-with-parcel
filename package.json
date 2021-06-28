@@ -1,0 +1,25 @@
+{
+  "name": "sass-with-parcel",
+  "version": "1.0.0",
+  "description": "Sass with auto-refresh using parcel",
+  "main": "index.js",
+  "scripts": {
+  "dev":"parcel src/index.html",
+  "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehtab2899/sass-with-parcel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehtab2899/sass-with-parcel/issues"
+  },
+  "homepage": "https://github.com/mehtab2899/sass-with-parcel#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.35.1"
+  }
+}
