@@ -1,5 +1,6 @@
-$red: pink;
+@use './abstract' as a;
 
 body {
-	background: $red;
+	font-size: a.$font-size;
+	background: a.$color;
 }
